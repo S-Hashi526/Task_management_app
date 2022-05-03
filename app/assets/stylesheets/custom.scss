@@ -34,7 +34,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
-  font-weight: bold;
+  font-weight: normal;
   font-style: italic;
 }
 
@@ -96,6 +96,22 @@ p {
 #top-main{
   background-color:transparent;
   
+}
+
+#dropdown-title {
+  background-color:teal;
+  font-weight:bold;
+  color:#fff;
+}
+
+#dropdown-title:hover {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+li .dropdown-header {
+  background-color: rgba(200, 100, 200, 0.5);
+  font-weight: bold;
 }
 
 /* デバッグウインドウ */
